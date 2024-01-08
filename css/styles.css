@@ -1,0 +1,180 @@
+.wrapper {
+  overflow: hidden;
+}
+.wrapper header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper header .text-wrap {
+  font-size: 25px;
+}
+@media (min-width: 375px) {
+  .wrapper header .text-wrap {
+    font-size: 30px;
+  }
+}
+@media (min-width: 567px) {
+  .wrapper header .text-wrap {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper header .text-wrap {
+    font-size: 50px;
+  }
+}
+.wrapper header .btn {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 10px 0px;
+  border-radius: 100%;
+  background-color: #000;
+  border: 2px solid transparent;
+  outline: none;
+  box-shadow: none;
+  min-width: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .wrapper header .btn {
+    padding: 12px 15px;
+    font-size: 20px;
+  }
+}
+.wrapper header .btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all ease-in-out 0.3s;
+}
+.wrapper .main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.wrapper .main .box {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 7px rgba(143, 26, 26, 0.2);
+}
+.wrapper .main .box textarea {
+  border-radius: 10px;
+  width: 100%;
+  height: 85%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.wrapper .main .icons {
+  height: 45px;
+  box-shadow: inset 0px 11px 8px -10px #f3e9e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrapper .main .icons .tool {
+  display: flex;
+  gap: 10px;
+}
+.wrapper .main .icons .tool .del:hover {
+  color: red;
+  transition: all ease-in-out 0.3s;
+}
+.wrapper .main .icons .tool .save:hover {
+  color: green;
+  transition: all ease-in-out 0.3s;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/20px "IBM Plex Serif", sans-serif;
+  color: #231f20;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, #999966 0%, #66ffcc 100%);
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=file],
+input[type=submit] {
+  cursor: pointer;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}/*# sourceMappingURL=styles.css.map */
